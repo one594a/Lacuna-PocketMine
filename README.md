@@ -1,8 +1,8 @@
-# PocketMine 服务端（PHP 8.2 兼容版）
+# Lacuna（PocketMine-MP PHP 8.2 兼容版）
 
 > 语言 / Language：**[中文](#项目简介)** ｜ **[🇬🇧 English](#english-version)**
 
-> 一个基于 **PocketMine-MP 1.7.0（代号 Calisson）** 的 Minecraft: Bedrock Edition（基岩版 / Pocket Edition）服务端。
+> 一个基于 **PocketMine-MP 1.7.0（代号 Calisson）** 的 Minecraft: Bedrock Edition（基岩版 / Pocket Edition）服务端，对外品牌名 **Lacuna**。
 > 本仓库改编自官方 **[PocketMine-MP 1.7dev-937 with API 3.0.0-ALPHA12](https://github.com/pmmp/PocketMine-MP/releases/tag/api%2F3.0.0-ALPHA12)**（commit `c276ef2`）源码，并做了 **PHP 8.2 兼容性改造**，可直接在现代 PHP 上运行。
 
 ---
@@ -12,7 +12,8 @@
 本项目是一套用 PHP 编写的 Minecraft 基岩版服务端软件，源自 PocketMine-MP 1.7.0（`API 3.0.0-ALPHA12`）。
 原版 PocketMine-MP 1.7.0 时代最早面向 PHP 7.x，本仓库在其基础上修复了 PHP 8.x 下的弃用语法（如隐式动态属性、暂定返回类型等），使其能够在 **PHP 8.2** 上正常启动与运行。
 
-- 软件名称（内部常量）：`PocketMine-MP`
+- 软件名称（内部常量 `NAME`）：`PocketMine-MP`
+- 运行时品牌名（服务端 `getName()` 返回值 / 启动横幅 / `lacuna.yml`）：**Lacuna**
 - 支持客户端版本：**Minecraft v1.2.13**（Bedrock / PE）
 - 网络协议号：`223`
 
@@ -297,7 +298,7 @@ A：本版本已对弃用语法做兼容处理，警告不会影响运行；若�
 
 > Language: **[🇨🇳 中文](#pocketmine-服务端php-82-兼容版)** ｜ **[English](#english-version)**
 
-> A Minecraft: Bedrock Edition (Bedrock / Pocket Edition) server software based on **PocketMine-MP 1.7.0 (Codename Calisson)**.
+> A Minecraft: Bedrock Edition (Bedrock / Pocket Edition) server software based on **PocketMine-MP 1.7.0 (Codename Calisson)**, branded **Lacuna**.
 > This repository is adapted from the official **[PocketMine-MP 1.7dev-937 with API 3.0.0-ALPHA12](https://github.com/pmmp/PocketMine-MP/releases/tag/api%2F3.0.0-ALPHA12)** (commit `c276ef2`) source, with **PHP 8.2 compatibility fixes** so it runs on modern PHP.
 
 ---
@@ -306,7 +307,8 @@ A：本版本已对弃用语法做兼容处理，警告不会影响运行；若�
 
 This is a Minecraft Bedrock Edition server written in PHP, derived from PocketMine-MP 1.7.0 (`API 3.0.0-ALPHA12`). The original 1.7.0 era targeted PHP 7.x; this repository fixes PHP 8.x deprecation syntax (e.g. implicit dynamic properties, tentative return types) so it can boot and run on **PHP 8.2**.
 
-- Software name (internal constant): `PocketMine-MP`
+- Software name (internal constant `NAME`): `PocketMine-MP`
+- Runtime brand name (server `getName()` / startup banner / `lacuna.yml`): **Lacuna**
 - Supported client: **Minecraft v1.2.13** (Bedrock / PE)
 - Network protocol: `223`
 
@@ -332,7 +334,7 @@ This is a Minecraft Bedrock Edition server written in PHP, derived from PocketMi
 
 | Item | Value |
 | --- | --- |
-| Software name | PocketMine-MP |
+| Software name | PocketMine-MP (runtime brand: **Lacuna**) |
 | Version | 1.7.0 |
 | API version | 3.0.0-ALPHA12 |
 | Codename | Calisson |
