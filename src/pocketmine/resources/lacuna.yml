@@ -1,0 +1,89 @@
+#
+#   _        ___   ____ _   _  _   _    _
+#  | |      / _ \ / ___| | | || \ | |  / \
+#  | |     | | | | |   | | | ||  \| | / _ \
+#  | |___  | |_| | |___| |_| || |\  |/ ___ \
+#  |_____|  \___/ \____|\___/ |_| \_/_/   \_\
+#
+# Lacuna 高级配置，和 pocketmine.yml / server.properties 同名项以这个为准
+# 改完重启或 /reload 生效
+
+config:
+ version: 1
+
+level:
+ weather: true
+ weather-random-duration-min: 6000
+ weather-random-duration-max: 12000
+ lightning-time: 200
+ lightning-fire: false
+ fire-spread: true
+
+player:
+ hunger: true
+ experience: true
+ keep-inventory: false
+ keep-experience: false
+ auto-clear-inventory: true
+ # 视距，-1 不限；进服崩了就调小到 10 以内
+ chunk-radius: -1
+
+developer:
+ folder-plugin-loader: true
+ load-incompatible-api: true
+
+nether:
+ # 开了首次启动会生成地狱，但目前没传送门逻辑
+ allow-nether: false
+ level-name: "nether"
+
+ender:
+ # 预留，核心没末地生成器，先不生效
+ allow-ender: false
+ level-name: "ender"
+
+server:
+ allow-iron-golem: false
+ allow-snow-golem: false
+ disable-log: false
+ anti-fly: true
+ async-chunk-request: true
+ # 进出服消息展示方式：0 聊天 / 1 Tip / 2 Popup
+ player-msg-type: 0
+ # @player 会替换成玩家名；留空用核心默认
+ login-msg: "§3@player 加入了游戏"
+ logout-msg: "§3@player 退出了游戏"
+ limited-creative: false
+ destroy-block-particle: true
+ allow-splash-potion: true
+ advanced-command-selector: true
+ enable-resource: true
+ absorb-water: true
+
+enchantment:
+ enable-anvil: true
+ enable-enchanting-table: true
+ count-bookshelf: false
+
+# 红石 / 多服统计 / 背包校验这几块都是预留，核心还没实现
+redstone:
+ enable: false
+ frequency-pulse: false
+ pulse-frequency: 1
+
+dserver:
+ enable: false
+ query-auto-update: false
+ query-tick-update: true
+ motd-max-players: 0
+ query-max-players: 0
+ motd-all-players: false
+ query-all-players: false
+ motd-players: false
+ query-players: false
+ time: 40
+ retry-times: 3
+ server-list: ""
+
+inventory:
+ allow-cheats: false

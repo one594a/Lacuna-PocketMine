@@ -1,0 +1,32 @@
+# ===== PocketMine 运行时生成的数据 =====
+server.properties
+server.log
+ops.txt
+banned-players.json
+banned-ips.json
+white-list.txt
+players/
+worlds/
+memory_dumps/
+crashdumps/
+
+# ===== 插件（第三方，运行时放入，不纳入版本库） =====
+plugins/
+
+# ===== 构建产物 / 打包的 phar =====
+*.phar
+PocketMine-MP.phar
+PocketMine-Soft.phar
+PocketMine-iTX.phar
+Genisys*.phar
+
+# ===== 自带的 PHP 二进制（单独下载，不纳入版本库） =====
+/bin/
+
+# ===== 编辑器 / 系统文件 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
