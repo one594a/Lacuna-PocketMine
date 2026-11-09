@@ -30,3 +30,7 @@ Genisys*.phar
 *.swo
 .DS_Store
 Thumbs.db
+
+# ===== 本地一键发布脚本（仅本地使用，不纳入版本库） =====
+gitpush.sh
+gitpush.bat
