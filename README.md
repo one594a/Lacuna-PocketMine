@@ -296,7 +296,7 @@ A：本版本已对弃用语法做兼容处理，警告不会影响运行；若�
 
 # 🇬🇧 English Version
 
-> Language: **[🇨🇳 中文](#pocketmine-服务端php-82-兼容版)** ｜ **[English](#english-version)**
+> Language: **[🇨🇳 中文](#项目简介)** ｜ **[English](#english-version)**
 
 > A Minecraft: Bedrock Edition (Bedrock / Pocket Edition) server software based on **PocketMine-MP 1.7.0 (Codename Calisson)**, branded **Lacuna**.
 > This repository is adapted from the official **[PocketMine-MP 1.7dev-937 with API 3.0.0-ALPHA12](https://github.com/pmmp/PocketMine-MP/releases/tag/api%2F3.0.0-ALPHA12)** (commit `c276ef2`) source, with **PHP 8.2 compatibility fixes** so it runs on modern PHP.
